@@ -1,0 +1,9 @@
+.picture[b-63u3qd1n3w] {
+    position: relative;
+    background: red;
+    height: 200px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
