@@ -1,11 +1,41 @@
 /* _content/Portfolio/Views/Home/Index.cshtml.rz.scp.css */
-.picture[b-63u3qd1n3w] {
-    position: relative;
+.text-center[b-63u3qd1n3w] {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.text-center .banner[b-63u3qd1n3w] {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.text-center .banner span[b-63u3qd1n3w] {
+    color: red;
+}
+.text-center .banner h1[b-63u3qd1n3w] {
+    text-align: left;
+    width: 600px;
+    float: left;
+}
+.text-center .picture[b-63u3qd1n3w] {
+        
     background: red;
     height: 200px;
     width: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+}
+.text-center .contact-btn[b-63u3qd1n3w],
+.text-center button[b-63u3qd1n3w] {
+    text-align: left;
+    color: #fff;
+    background: red;
+    border: 0;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px, 10px, 5px, 10px;
 }
 
 /* _content/Portfolio/Views/Shared/_Layout.cshtml.rz.scp.css */

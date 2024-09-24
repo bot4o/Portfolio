@@ -29,3 +29,4 @@
 /home/bobbi/coding/web/Portfolio/obj/Debug/net8.0/Portfolio.genruntimeconfig.cache
 /home/bobbi/coding/web/Portfolio/obj/Debug/net8.0/ref/Portfolio.dll
 /home/bobbi/coding/web/Portfolio/obj/Debug/net8.0/scopedcss/Views/Home/Index.cshtml.rz.scp.css
+/home/bobbi/coding/web/Portfolio/obj/Debug/net8.0/Portfolio.sourcelink.json
