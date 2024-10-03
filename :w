@@ -1,20 +1,14 @@
 .text-center {
-    position: absolute;
-    display: inline-block;
     font-weight: bold;
-    left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    flex-direction: column;
+    left:50%;
+    height: 100vh;
 }
 .text-center .banner {
-    text-align:center;
+    display: inline;
 }
 .text-center .banner .heading{
-    margin: 0, 20px, 0,  20px;
-    font-size: 72px;
     display: inline;
-    text-align: start;
     float: left;
 }
 .text-center .picture {
