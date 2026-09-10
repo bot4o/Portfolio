@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     background: #ffdd35;
     color: #000;
     font-family: "IBM Plex Mono", monospace;
     letter-spacing: .0625em;
 }
-code, pre {
+
+code,
+pre {
     background-color: #000;
 }
 
@@ -14,13 +17,15 @@ code {
     color: #ffdd35;
     padding: 3px 10px;
 }
+
 pre {
     margin-top: 20px;
     padding: 0 1.6rem;
 }
+
 pre code {
     letter-spacing: 0;
-    color: #e5e5e5!important;
+    color: #e5e5e5 !important;
     padding: 0;
     height: max-content;
 }
@@ -33,10 +38,12 @@ header {
     align-items: center;
     border-bottom: 1px solid #000;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
+
 header,
 footer {
     max-width: 100%;
@@ -68,7 +75,8 @@ header nav {
     flex-direction: row;
     align-items: center;
 }
-header nav ul li{
+
+header nav ul li {
     font-size: 15px !important;
     letter-spacing: 1;
     display: inline;
@@ -77,7 +85,7 @@ header nav ul li{
 header nav img {
     max-height: 30px;
     margin-left: 10px;
-} 
+}
 
 /* MAIN */
 .main {
@@ -86,42 +94,47 @@ header nav img {
     margin: 0 250px;
     border-collapse: collapse;
 }
+
 .main .main-item {
     margin-top: 50px;
     max-width: 100%
 }
+
 .main ul {
-    margin: 0 25px 0 25px!important;
+    margin: 0 25px 0 25px !important;
     padding: 0;
 }
-.main ul li{
+
+.main ul li {
     margin: 8px 0;
 }
+
 .main h2 {
     font-weight: normal;
     text-transform: uppercase;
 }
 
-.main .wrapper{
+.main .wrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
 }
 
-.main .wrapper .main-content{
+.main .wrapper .main-content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     flex: 1;
 }
 
-.main .wrapper .profile { 
+.main .wrapper .profile {
     margin-top: 50px;
     max-width: 300px;
     width: 100%;
     height: auto;
 }
+
 .main .main-work table {
     width: 100%;
     border-collapse: collapse;
@@ -147,7 +160,7 @@ header nav img {
 
 .main .main-work table th:last-child,
 .main .main-work table td:last-child {
-   border-right: none;
+    border-right: none;
 }
 
 .main .main-work table th {
